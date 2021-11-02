@@ -82,6 +82,7 @@ ro.vendor.mtk_audio_alac_support=1
 ro.vendor.num_md_protocol=2
 vendor.camera.mdp.dre.enable=0
 ro.vendor.perf.scroll_opt=true
+ro.vendor.mtk_log_hide_gps=1
 persist.vendor.camera3.pipeline.bufnum.min.high_ram.imgo=7
 persist.vendor.camera3.pipeline.bufnum.min.low_ram.imgo=6
 persist.vendor.camera3.pipeline.bufnum.base.imgo=4
