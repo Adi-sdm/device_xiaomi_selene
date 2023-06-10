@@ -23,6 +23,9 @@ dalvik.vm.image-dex2oat-threads=6
 # Dex2oat64
 dalvik.vm.dex2oat64.enabled=true
 
+#DEX
+persist.sys.dalvik.multithread=true
+
 # Camera
 persist.camera.dualcal.state=-1
 persist.vendor.camera.privapp.list=org.codeaurora.snapcam,com.android.camera,com.google.camera,org.lineageos.aperture
