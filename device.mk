@@ -198,6 +198,10 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss@2.1 \
     android.hardware.gnss@2.1.vendor
 
+# GCamGO
+PRODUCT_PACKAGES += \
+    CameraGo
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health@2.0 \
