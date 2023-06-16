@@ -72,6 +72,14 @@ media.stagefright.thumbnail.prefer_hw_codecs=true
 # Order
 ro.product.property_source_order=odm,vendor,product,system
 
+# LMKD
+PRODUCT_PRODUCT_PROPERTIES += \ 
+ro.lmk.critical_upgrade=true \ 
+ro.lmk.upgrade_pressure=40 \ 
+ro.lmk.downgrade_pressure=60 \ 
+ro.lmk.thrashing_limit=30 \
+ro.lmk.thrashing_limit_decay=50
+
 # Perf
 ro.mtk_perf_fast_start_win=1
 ro.mtk_perf_response_time=1
